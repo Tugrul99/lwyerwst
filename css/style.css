@@ -1,0 +1,545 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Italianno&family=Lora:ital,wght@0,400..700;1,400..700&family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: white !important;
+    font-family: "Castoro Titling", serif !important;
+}
+p{    
+    color: white !important;
+      font-family: "Crimson Text", serif;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: "Castoro Titling", serif !important;
+    margin: 0;
+    padding: 0;
+
+  
+
+}
+
+span {
+    font-family: "Italianno", cursive;
+}
+
+.logo{
+    color: white ;
+    display: flex;
+    align-items: center;
+    max-height: 500px;
+    width: auto;
+}
+
+
+
+.navbar-toggler {
+    background-color: white !important;
+
+}
+
+.navbar {
+    margin:2rem 7rem ;
+    font-family: "Castoro Titling", serif !important;
+    text-transform: uppercase;
+
+}
+
+#navbar {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+
+.navbar-brand {
+    color: white !important;
+    display: flex;
+    align-items: center;
+    max-height: 50px;
+    width: auto;
+    
+
+  
+}
+
+.nav-item {
+    /* text-shadow: 1px 0 10px rgb(119, 115, 115) !important; */
+    padding-left: 15px;
+
+
+}
+
+.navbar-toggler {
+    color: white !important;
+}
+
+
+.main-header {
+
+    background-image: url(../img/giammarco-boscaro-eWpBNXRHfTI-unsplash.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    filter: brightness(0.8);
+    position: relative;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+
+}
+
+.butons {
+    margin-top: 1rem;
+}
+
+.btn-secondary {
+
+    color: black !important;
+
+
+}
+
+.btn-secondary:hover {
+    color: white !important;
+    transition: 1s all ease;
+
+
+}
+
+.btn-secondary {
+    background: linear-gradient(to bottom, #fffcfc, rgb(74, 73, 73));
+    ;
+    padding: 10px 15px !important;
+   margin-right: 15px;
+
+}
+.mainhl{
+    text-transform: uppercase; 
+    font-weight: 700; 
+    font-size: 2.3rem; 
+    padding-bottom: 10px;
+}
+
+.main-text {
+    text-align: left;
+    position: absolute;
+    top: 56%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+
+}
+
+.main-text h1,
+p {
+    text-shadow: 1px 10px 4px rgb(0, 0, 0) !important;
+
+}
+
+/* ABOUT */
+
+#about {
+    padding: 4% 9.5%;
+ 
+  background-color: #2d3436;
+  background: linear-gradient(315deg, #2d3436 0%, #d3d3d3 74%);
+
+    
+
+
+
+}
+
+
+
+.about-txt p {
+    text-align: left !important;
+    line-height: 1.8rem;
+
+}
+
+.about-txt h2::after {
+
+    content: "";
+    background-color: black;
+    width: auto;
+    height: 0.8px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+
+}
+
+.about-description {
+    text-align: center !important;
+    font-family: "Crimson Text", serif;
+}
+
+.about-description > p {
+    text-align: justify !important;
+    color: #262626 !important;
+    text-shadow: none !important;
+    font-size: larger;
+
+
+
+}
+.bsk{
+    max-height: 465px;
+    width: 507px;
+    margin-left: 110px;
+    border-radius: 25px;
+    filter: brightness();
+}
+/* WORKAREA */
+.workarea {
+    padding: 7% 10%;
+    background-color: #DCD9D4;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+    background-blend-mode: soft-light,screen;
+
+}
+
+.wimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+
+
+}
+
+.wimg img:hover,
+.wimg img:focus{
+filter: brightness(0.7);
+    
+}
+.wimg img {
+    max-width: 100%;
+    height: 420px !important;
+    object-fit: cover;
+    padding-top: 2rem !important;
+    overflow: hidden;
+    position: relative;
+    filter: brightness(0.2);
+    transition: 1s ease-in-out;
+
+
+}
+
+.wimg h6 {
+    text-align: center !important;
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+   
+
+}
+
+.hea {
+    flex-direction: column;
+    position: absolute !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+   
+}
+
+.hea button {
+    color: white !important;
+    border-color: white;
+    padding: 10px 15px;
+    border-radius: 0 !important;
+
+}
+/* 
+.hkuk1{
+
+    transition-delay: 0ms !important;
+}
+.hkuk2{
+    transition-delay: 200ms !important;
+}
+.hkuk3{
+    transition-delay: 400ms !important;
+ 
+} */
+
+/* CAROUSEL */
+#carouselExample{
+    transition: 1s ease-in-out !important;
+}
+
+.container-fluid {
+ 
+    text-align: center;
+}
+
+.carousel-container{
+    position: relative;
+}
+
+
+
+.testimonial-text {
+    font-size: 1.5rem;
+    font-style: italic;
+   
+}
+
+.overlay {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important; 
+    background-image: url(../img/bacckk.jpg) !important;
+    filter: brightness(0.3);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+
+
+
+
+
+
+.carousel-item {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+
+.carousel-item img {
+    width: 8% !important;
+    margin: 20px !important;
+    border-radius: 80% !important;
+    height: 90px;
+    object-fit: cover !important;
+}
+
+/* FOOTER ILETISIM */
+#iletisim{
+    background-image: linear-gradient(200deg, #EFEFEF 0%, #070707FC 41%);
+   
+    opacity: 0.93;
+    height: 58vh;
+    padding: 5% 15%;
+    font-family: "Crimson Text", serif;
+}
+
+.footer-item li{
+    color: white;
+    list-style: none;
+    padding-top: 15px;
+
+}
+.footerlogo{
+    padding: 0 !important;
+    margin: 0 !important;
+    color: white !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    max-height: 200px;
+    width: auto;
+
+}
+
+
+.footer-item h2{
+ 
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+  
+}
+.footer-item h2::after{
+    content: "";
+    background-color: rgb(221, 221, 221);
+    width: 100%;
+    height: 0.8px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+   
+}
+
+
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+
+.social i{
+    font-size: 2.5rem;
+   
+   
+}
+.il{
+    padding-right: 15px;
+}
+
+.fa-instagram{
+   color: red;
+  
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-linkedin-in{
+    color: aqua;
+}
+/* ANIMATION */
+.hidden{
+    opacity: 0 !important;
+    transition: all  4s   !important;
+  
+  
+    
+   
+
+}
+.lhidden{
+    opacity: 0 !important;
+ 
+    transform: translateX(-100%);
+  
+    transition: all 1s  ;
+}
+
+.slowly{
+    opacity: 1 !important;
+    transition: 0.2s;
+    
+
+}
+
+.show{
+opacity: 1 !important;
+transform: translateX(0);
+filter: blur(0) !important;
+
+}
+
+
+/* RESPONSIVE AREA */
+
+/* SECTION MAIN HEADER */
+@media screen and (max-width:1200px) {
+    .nav-item {
+        font-size: smaller;
+        padding-left: 5px;
+    }
+
+    .navbar-brand {
+        font-size: large !important;
+    }
+
+
+}
+
+@media screen and (max-width:772px) {
+    .navbar {
+        font-size: smaller;
+        margin: 1rem 3rem 0px;
+    }
+
+    .nav-item a {
+        font-size: small !important;
+    }
+
+    #about {
+       
+        padding: 7% 8% !important;
+    }
+
+    .about-one h2 {
+        font-size: 30px !important;
+
+
+    }
+
+    .about-one h3 {
+        font-size: 16px !important;
+    }
+
+    .about-one p,
+    span {
+        font-size: 13px !important;
+        text-align: justify !important;
+
+
+
+
+
+
+    }
+
+    .about-description p {
+        text-align: justify !important;
+
+
+    }
+
+    .avukat {
+        padding-left: 0rem !important;
+    }
+
+}
+
+@media screen and (max-width:559px) {
+    .main-text h1 {
+        font-size: 2rem !important;
+    }
+
+    .main-text p {
+        font-size: small !important;
+        text-align: left;
+    }
+
+    .btn-secondary {
+        padding: 2px !important;
+        font-size: smaller !important;
+        text-align: left !important;
+    }
+    .footerlogo{
+        padding: 0 !important;
+        margin: 0 !important;
+        color: white !important;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        max-height: 50px!;
+        width: auto;
+    
+    }
+    .logo{
+        color: white !important;
+        display: flex;
+        align-items: center;
+        max-height: 250px;
+        width: auto;
+    }
+}
